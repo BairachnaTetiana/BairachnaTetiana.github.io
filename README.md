@@ -1,22 +1,70 @@
-# Hello Website (blank)
+# Seeds Valentines Day
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
+Today, we'll be making Valentine's cards
 
-## What's in this project?
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
 
-← `index.html`: This is the main HTML page for your site.
+```
+       WWW  WWW      .W.      WWWWWWW,  WWWWWWW, 'WWW. .WWW'
+       WWW  WWW     .WWW.     WWW  WWW  WWW  WWW  'WWW WWW'
+       WWWWWWWW    .WW WW.    WWWWWWW'  WWWWWWW'   'WWWWW'
+       WWW  WWW   .WWWWWWW.   WWW       WWW         'WWW'
+       WWW  WWW  .WWW   WWW.  WWW       WWW          WWW
 
-← `style.css`: CSS files add styling rules to your content.
+ .,,. .,,.
+:XXXX,XXXX:                   .SSSSSSS'
+'XXXXXXXXX'                 .SSSSSSSS,WW:,  .''':,.
+ ':XXXXX:'                .SSSSSSSSSS:WWW:,       '::,
+   'XXX'                 .SSSSSSSSS,WWW( )WW        '::,  '////
+    ':'                  SSSSSSSSSSSS'WWWWWWD         '::,////
+                   ,.    SSSSSSS(((SSSWWWWW          ,WW//:.'.W.
+                 ,((()   'SSSSSS(((WWWWWWWWWW)        //'W,:WWWW'
+               ,(((((()   'SSSSSS((WWWWWWWWWW)      //   'WWW,WWW
+            .,(((((((())    'SSSSWWWWWWWWWWW'     //     .WWWWW:,
+         .,((((((((((())),     SSWWWWWWWWWW'    //      ,WWWW' ':,
+     .,((((((((((((((())))),.,,,,WWWWWWWWWW:, //       ,WWWWW'  ':
+'((((((((((((((((((((()))))WWWWWWWWWWWWWVVVV//WWWWW:,.,WWWWW'    :
+   ((((((((((((((((((()))(WWWWWWWWWWWWWWVVVVVVWWWWWWWWWWWWW'    '
+     ((((((((((((((((()))(WWWWWWWWWWWWWVVVVVVVWWWWWWWWWWWW'
+       (((((((((((((())(()(WWWWWWWWW.VVVVVVVWWWWWWWWWWW:'
+           ((((((((())) ()(WWWWWW.VVVVVVV'WWWWWWW''      .,,. .,,.
+              ((((()))   ((WW,VVVVVVVVV'WWWWWWWWW       :XXXX,XXXX:
+                           WVVVVVVVVVV'WWWWWWWW:'       'XXXXXXXXX'
+     .,,. .,,.             VVVVVVVVV'WWWWWWWWWW          ':XXXXX:'
+    :XXXX,XXXX:          .WVVVVVVV'WWWWWWWWWWWW            'XXX'
+    'XXXXXXXXX'         .WWW''''',WWWWWWWWWWWW:             ':'
+     ':XXXXX:'        (())))WWWWWWWWWWWWWWWWW'
+       'XXX'         ((())))))WWWWWWWWWWWWWW'
+        ':'         ((()))))))))WWWWWWWWWWW'
+                    ()WWWWWW))))))))))))))))
+                    :WWWWWWWWW))))))))))))))     .,,. .,,.
+                    WWWWWWWWWWW)))))))WWWWW.    :XXXX,XXXX:
+                   :WWWWWWWWWW')))))WWWWWWWW.   'XXXXXXXXX'
+                   WWWWWWWWWW'  'WWWWWWWWWWWW    ':XXXXX:'
+         .,,:WWWW:,WWWWWWWWW'    'WWWWWWWWWWW      'XXX'
+        ,WWWWWWWWWWWWWWWWWW'       'WWWWWWWWW       ':'
+       ,WWWWWWWWWWWWWWWWWW'         'WWWWWWWW,
+       WWWWWWW'   '':WWW:'           'WWWWWWWW
+     .WWWWWWW'                      .WWWWWWWWW
+     ''W'W'WW                      ,WWWWWWWWW'          .,,. .,,.
+           ''                     ,WWWWWWWW'           :XXXX,XXXX:
+           .,,. .,,.             .WWWWWW:'             'XXXXXXXXX'
+          :XXXX,XXXX:         .WWWWWWW'                 ':XXXXX:'
+          'XXXXXXXXX'         WWWWWW'                     'XXX'
+           ':XXXXX:'           WWWWW'                      ':'
+             'XXX'              WWWW.
+              ':'               'WWWWW,
+                                 '' ''
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
+W    WW  .WW.    WW     WWWWWW WW. WW WWWWWW WW WW. WW WWWWWW ,WWWW.
+W.  .WW .WWWW.   WW     WW     WWW.WW   WW   WW WWW.WW WW     WW
+WW  WW'.WW  WW.  WW     WWWW   WWWWWW   WW   WW WWWWWW WWWW   'WWWW,
+'WWWW'.WWWWWWWW. WW     WW     WW'WWW   WW   WW WW'WWW WW         WW
+ 'WW'.WW      WW.WWWWWW WWWWWW WW 'WW   WW   WW WW 'WW WWWWWW 'WWWW'
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+                      WWWWW:.     .WW.  'WW.  .WW'
+                      WW  'WW.   .WWWW.  'WW..WW'
+                      WW   :W:  .WW  WW.   'WW'
+                      WW  .WW  .WWWWWWWW.   WW
+                      WWWWWW    W      W    WW
+```
