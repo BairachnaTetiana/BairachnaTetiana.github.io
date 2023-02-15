@@ -18,27 +18,33 @@ footer {
   height: 5rem;
   width: 100%;
   display: flex;
-  padding: 0 2rem;
   align-items: center;
   justify-content: space-between;
   border-top: 2px dotted red;
 }
 
+footer input {
+  margin-left: 2rem;
+}
+
 footer ul {
   display: flex;
+  gap: 2rem;
   width: 100%;
   overflow-x: auto;
 }
 
-footer img {
-  max-height: 100%;
-  width: auto;
-  display: block;
+footer li {
+  flex-shrink: 0;
 }
 
 
-
-
+footer img {
+  max-height: 4rem;
+  width: auto;
+  display: block;
+  cursor: pointer;
+}
 
 
 /* Way overcomplicated heart */
@@ -50,9 +56,9 @@ footer img {
 
 #heart::before, 
 #heart::after {
+  top: 0;
   content: "";
   position: absolute;
-  top: 0;
   width: 36.4vmin;
   height: 70.875vmin;
   border-radius: 36.4vmin 36.4vmin 0 0;
