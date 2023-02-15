@@ -34,7 +34,7 @@ footer input {
 
 footer ul {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   width: 100%;
   overflow-x: auto;
 }
@@ -63,12 +63,12 @@ footer img {
 }
 
 #heart em {
-  margin: auto;
   color: white;
   max-width: 70%;
   font-size: clamp(.8rem, 5vw, 2rem);
   position: relative;
   z-index: 2;
+  text-align: center;
 }
 
 #heart::before, 
