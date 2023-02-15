@@ -5,12 +5,36 @@ body {
   position: relative;
   flex-direction: column; 
 }
-footer {
+
+#heart-wrapper {
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; 
 }
 
+footer {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px dotted red;
+}
+
+footer ul {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+
+footer img {
+  max-height: 100%;
+  width: auto;
+  display: block;
+}
 
 
 
