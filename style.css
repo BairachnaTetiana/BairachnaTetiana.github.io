@@ -1,25 +1,28 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+#heart {
+  position: relative;
+  width: 70vmin;
+  height: 63vmin;
+  margin-top: 10px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+#heart::before, #heart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 36.4vmin;
+  height: 70.875vmin;
+  border-radius: 50% 50% 0 0;
+  background: red;
 }
 
-/* adjust typography defaults */
-body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+#heart::before {
+  left: 52%;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+#heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
 }
