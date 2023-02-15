@@ -1,17 +1,37 @@
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column; 
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+/* Way overcomplicated heart */
 #heart {
   position: relative;
   width: 70vmin;
   height: 63vmin;
-  margin-top: 10px;
 }
 
-#heart::before, #heart::after {
+#heart::before, 
+#heart::after {
   content: "";
   position: absolute;
   top: 0;
   width: 36.4vmin;
   height: 70.875vmin;
-  border-radius: 50% 50% 0 0;
+  border-radius: 36.4vmin 36.4vmin 0 0;
   background: red;
 }
 
