@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body {
   display: flex;
   height: 100vh;
   overflow: hidden;
   position: relative;
   flex-direction: column; 
+  font-family: 'Dancing Script', cursive;
 }
 
 #heart-wrapper {
@@ -40,7 +43,7 @@ footer li {
 
 
 footer img {
-  max-height: 4rem;
+  max-height: 3rem;
   width: auto;
   display: block;
   cursor: pointer;
@@ -52,6 +55,16 @@ footer img {
   position: relative;
   width: 70vmin;
   height: 63vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#heart em {
+  color: white;
+  font-size: clamp(.8rem, 5vw, 2rem);
+  position: relative;
+  z-index: 2;
 }
 
 #heart::before, 
